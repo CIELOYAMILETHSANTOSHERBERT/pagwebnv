@@ -1,0 +1,126 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Gris claro */
+    color: #333; /* Texto principal */
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2ecc71; /* Verde */
+    color: #fff; /* Texto blanco */
+    padding: 15px 0;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff; /* Texto blanco */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-content {
+    padding: 20px;
+}
+
+footer {
+    background-color: #34495e; /* Azul oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos específicos para cada página */
+.index {
+    background-color: #e74c3c; /* Rojo */
+}
+
+.sobre-nosotros {
+    background-color: #f39c12; /* Amarillo */
+}
+
+.proyectos {
+    background-color: #3498db; /* Azul */
+}
+
+.noticias {
+    background-color: #9b59b6; /* Morado */
+}
+
+.contacto {
+    background-color: #1abc9c; /* Verde claro */
+}
+
+/* Estilos para el formulario */
+form {
+    margin-top: 20px;
+    text-align: left;
+}
+
+form label {
+    display: block;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #2ecc71; /* Verde */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049; /* Verde más oscuro */
+}
+
+/* Enlace al formulario */
+#contact-form-link {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    color: #2ecc71; /* Verde */
+}
+
+#contact-form-link:hover {
+    text-decoration: underline;
+}
